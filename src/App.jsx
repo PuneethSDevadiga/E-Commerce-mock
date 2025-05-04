@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Cart from './Pages/Cart';
 import Product from './Pages/Product';
 
+
 function App() {
   const [cartItems,setCartItems]=useState([]);
 
@@ -75,6 +76,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Login/>} />
         <Route path="/home" element={<Home addToCart={addToCart}/>}/>
+
         <Route path="/product/:id" element={<Product addToCart={addToCart} />} />
         <Route path="/cart" element={<Cart cartItems={cartItems} removeFromCart={removeFromCart} updateQuantity={updateQuantity} />}/>
       </Routes>
