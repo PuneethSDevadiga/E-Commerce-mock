@@ -1,0 +1,36 @@
+
+.container-login{
+    height: 650px;
+    width: 450px;
+    background-color: greenyellow;
+    color: black;
+    border:1px solid black;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+.container-login input{
+    border:none;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+.align-center{
+    margin-top: 100px;
+}
+.container-login button{
+    border:none;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+}
