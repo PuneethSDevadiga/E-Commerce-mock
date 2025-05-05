@@ -11,11 +11,14 @@
   },
   "dependencies": {
     "axios": "^1.7.9",
+<<<<<<< HEAD
     "bcryptjs": "^3.0.2",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.14.1",
+=======
+>>>>>>> 5f5efcc76526fe99b3b6a1520db1e45fabf03ddc
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
